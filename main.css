@@ -1,3 +1,301 @@
-body {
-  background-color: yellow;
+body, html {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+
+}
+ 
+img {
+  width: 125px;
+}
+
+#content { /*div with all content*/
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+/*CARD 1 !!!!!!!*/
+.cardOne{ /*the whole card*/
+  border: solid lightblue 1px;
+  text-align: center;
+  margin: 10px 150px 12px 150px;
+}
+
+.ballOneTitle { /*title*/
+  text-align: center;
+  border: solid lightblue 1px;
+  background-color: #e0e0e0;
+}
+
+.descOne { /*description*/
+text-align: left;
+}
+
+.avOne { /*availability*/
+  background-color: #ccffcc; /* available #ccffcc */ /*Not Avalable #ffad99 */
+  border: solid lightblue 1px;
+}
+ 
+.specPriceOne { /*div for the specs and price*/
+  text-align: left;
+}
+
+.specOne { /*Specifications title*/
+  text-indent: 7px;
+}
+
+.sOne { /*spec descriptions. weight and size */
+  margin: 0px;
+  text-indent: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+
+.validOne { /*valid until footer*/
+ background-color: lightgray;
+ border: solid lightblue 1px;
+ font-size: 11px;
+ margin-bottom: 10px;
+}
+
+.priceOne {/*Price title*/
+  text-indent: 7px;
+}
+
+.pOne { /*pricing info*/
+  text-indent: 15px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+/*CARD 2 !!!!!!!*/
+.card2{ /*the whole card*/
+  border: solid lightblue 1px;
+  text-align: center;
+  margin: 10px 150px 15px 150px;
+}
+
+.ball2Title { /*title*/
+  text-align: center;
+  border: solid lightblue 1px;
+  background-color: #e0e0e0;
+}
+
+.desc2 { /*description*/
+text-align: left;
+}
+
+.av2 { /*availability*/
+  background-color: #ccffcc; /* available #ccffcc */ /*Not Avalable #ffad99 */
+  border: solid lightblue 1px;
+}
+ 
+.specPrice2{ /*div for the specs and price*/
+  text-align: left;
+}
+
+.spec2 { /*Specifications title*/
+  text-indent: 7px;
+}
+
+.s2 { /*spec descriptions. weight and size */
+  margin: 0px;
+  text-indent: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+
+.valid2 { /*valid until footer*/
+ background-color: lightgray;
+ border: solid lightblue 1px;
+ font-size: 11px;
+ margin-bottom: 10px;
+}
+
+.price2 {/*Price title*/
+  text-indent: 7px;
+}
+
+.p2 { /*pricing info*/
+  text-indent: 15px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+/*CARD 3 !!!!!!!*/
+.card3{ /*the whole card*/
+  border: solid lightblue 1px;
+  text-align: center;
+  margin: 10px 150px 18px 150px;
+}
+
+.ball3Title { /*title*/
+  text-align: center;
+  border: solid lightblue 1px;
+  background-color: #e0e0e0;
+}
+
+.desc3 { /*description*/
+text-align: left;
+}
+
+.av3 { /*availability*/
+  background-color: #ffad99; /* available #ccffcc */ /*Not Avalable #ffad99 */
+  border: solid lightblue 1px;
+}
+ 
+.specPrice3 { /*div for the specs and price*/
+  text-align: left;
+}
+
+.spec3 { /*Specifications title*/
+  text-indent: 7px;
+}
+
+.s3 { /*spec descriptions. weight and size */
+  margin: 0px;
+  text-indent: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+
+.valid3 { /*valid until footer*/
+ background-color: lightgray;
+ border: solid lightblue 1px;
+ font-size: 11px;
+ margin-bottom: 10px;
+}
+
+.price3 {/*Price title*/
+  text-indent: 7px;
+}
+
+.p3 { /*pricing info*/
+  text-indent: 15px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+/*CARD 4 !!!!!!!*/
+.card4{ /*the whole card*/
+  border: solid lightblue 1px;
+  text-align: center;
+  margin: 10px 150px 18px 150px;
+}
+
+.ball4Title { /*title*/
+  text-align: center;
+  border: solid lightblue 1px;
+  background-color: #e0e0e0;
+}
+
+.desc4 { /*description*/
+text-align: left;
+}
+
+.av4 { /*availability*/
+  background-color: #ffad99; /* available #ccffcc */ /*Not Avalable #ffad99 */
+  border: solid lightblue 1px;
+}
+ 
+.specPrice4 { /*div for the specs and price*/
+  text-align: left;
+}
+
+.spec4 { /*Specifications title*/
+  text-indent: 7px;
+}
+
+.s4 { /*spec descriptions. weight and size */
+  margin: 0px;
+  text-indent: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+
+.valid4 { /*valid until footer*/
+ background-color: lightgray;
+ border: solid lightblue 1px;
+ font-size: 11px;
+ margin-bottom: 10px;
+}
+
+.price4 {/*Price title*/
+  text-indent: 7px;
+}
+
+.p4 { /*pricing info*/
+  text-indent: 15px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+/*CARD 5 !!!!!!!*/
+.card5{ /*the whole card*/
+  border: solid lightblue 1px;
+  text-align: center;
+  margin: 10px 150px 32px 150px;
+}
+
+.ball5Title { /*title*/
+  text-align: center;
+  border: solid lightblue 1px;
+  background-color: #e0e0e0;
+}
+
+.desc5 { /*description*/
+text-align: left;
+}
+
+.av5 { /*availability*/
+  background-color: #ccffcc; /* available #ccffcc */ /*Not Avalable #ffad99 */
+  border: solid lightblue 1px;
+}
+ 
+.specPrice5 { /*div for the specs and price*/
+  text-align: left;
+
+}
+
+.spec5 { /*Specifications title*/
+  text-indent: 7px;
+}
+
+.s5 { /*spec descriptions. weight and size */
+  margin: 0px;
+  text-indent: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+}
+
+.valid5 { /*valid until footer*/
+ background-color: lightgray;
+ border: solid lightblue 1px;
+ font-size: 11px;
+ margin-bottom: 10px;
+}
+
+.price5 {/*Price title*/
+  text-indent: 7px;
+}
+
+.p5 { /*pricing info*/
+  text-indent: 15px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #cdebf7;
+
 }
